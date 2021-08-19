@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="258dp"
+                android:layout_height="92dp"
+                android:id="@+id/ART"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/combined_shapes" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="330dp"
+                android:id="@+id/GroupImage"
+                 android:scaleType="fitXY"
+                android:layout_below="@+id/ART"
+                android:src="@drawable/groupimage" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/GroupImage"
+                android:layout_marginTop="20dp"
+                android:id="@+id/textView1"
+                android:paddingStart="20dp"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:text="Lorem ipsum dolor sit amet, consectetur \n adipiscing elit"
+                android:layout_height="50dp"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="140dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="40dp"
+                android:backgroundTint="#ec5151"
+                android:id="@+id/Register"
+                app:cardCornerRadius="11dp"
+                android:layout_below="@id/textView1"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:drawableStart="@drawable/ic_baseline_arrow_forward_24"
+                    android:drawablePadding="7dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="register"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:text="me as a collector"
+                android:textSize="25sp"
+                android:id="@+id/textView2"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto_light"
+                android:layout_marginTop="40dp"
+                android:layout_alignParentRight="true"
+               android:layout_toRightOf="@+id/Register"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/Register"
+                android:text="track my application"
+                android:layout_marginTop="26dp"
+                android:id="@+id/textView3"
+                android:drawableStart="@drawable/ic_baseline_arrow_forward_25"
+                android:textColor="#577bdf"
+                android:textSize="21sp"
+                android:layout_marginStart="120dp"
+                android:layout_height="wrap_content"/>
+            
+            
+            <ImageView
+                android:layout_width="99dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/group"
+                android:id="@+id/Group"
+                android:layout_marginStart="30dp"
+                android:layout_below="@+id/textView3"
+                android:layout_height="103dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="lorem ipsum \n is used"
+                android:textSize="32sp"
+                android:id="@+id/textView4"
+                android:layout_marginTop="35dp"
+                android:textStyle="bold"
+                android:layout_marginStart="30dp"
+                android:layout_below="@id/Group"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="25sp"
+                android:padding="30dp"
+                 android:id="@+id/textView5"
+
+                android:fontFamily="@font/roboto_light"
+                android:layout_below="@id/textView4"
+                android:text="Lorem ipsum dolor sit amet, consectetur \n adipiscing elit, sed do eiusmod tempor \n incididunt ut labore et dolore magna  \n aliqua. Ut enim ad minim veniam, quis \n nostrud exercitation ullamco."
+                android:layout_height="wrap_content"/>
+
+
+            <ImageView
+                android:layout_width="99dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/group2"
+                android:id="@+id/Group2"
+                android:layout_below="@+id/textView5"
+                android:layout_marginStart="30dp"
+                android:layout_height="103dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="lorem ipsum \n is used"
+                android:textSize="32sp"
+                android:id="@+id/textView6"
+                android:layout_marginTop="35dp"
+                android:textStyle="bold"
+                android:layout_marginStart="30dp"
+                android:layout_below="@id/Group2"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="25sp"
+                android:padding="30dp"
+                android:id="@+id/textView7"
+                android:fontFamily="@font/roboto_light"
+                android:layout_below="@id/textView6"
+                android:textColor="@android:color/darker_gray"
+                android:text="Lorem ipsum dolor sit amet, \nconsectetur adipiscing elit, sed do  \neiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim \n veniam, quis nostrud exercitation ullamco."
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="99dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/group3"
+                android:id="@+id/Group3"
+                android:layout_below="@+id/textView7"
+                android:layout_marginStart="30dp"
+                android:layout_height="103dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="lorem ipsum \n is used"
+                android:textSize="32sp"
+                android:layout_marginTop="35dp"
+                android:textStyle="bold"
+                android:id="@+id/textView8"
+                android:layout_marginStart="30dp"
+                android:layout_below="@id/Group3"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="25sp"
+                android:padding="30dp"
+                android:id="@+id/textView9"
+                android:fontFamily="@font/roboto_light"
+                android:layout_below="@id/textView8"
+                android:textColor="@android:color/darker_gray"
+               android:text="Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit, sed do \neiusmod tempor incididunt ut labore et \ndolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="99dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/group4"
+                android:id="@+id/Group4"
+                android:layout_below="@+id/textView9"
+                android:layout_marginStart="30dp"
+                android:layout_height="103dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="lorem ipsum \n is used"
+                android:textSize="32sp"
+                android:layout_marginTop="35dp"
+                android:textStyle="bold"
+               android:id="@+id/textView10"
+                android:layout_marginStart="30dp"
+                android:layout_below="@id/Group4"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="25sp"
+                android:padding="30dp"
+                android:id="@+id/textView11"
+                android:fontFamily="@font/roboto_light"
+                android:layout_below="@id/textView10"
+                android:textColor="@android:color/darker_gray"
+                android:text="Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit, sed do \neiusmod tempor incididunt ut labore et \ndolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="99dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/group5"
+                android:id="@+id/Group5"
+                android:layout_below="@+id/textView11"
+                android:layout_marginStart="30dp"
+                android:layout_height="103dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="lorem ipsum \n is used"
+                android:textSize="32sp"
+                android:layout_marginTop="35dp"
+                android:textStyle="bold"
+                android:id="@+id/textView12"
+                android:layout_marginStart="30dp"
+                android:layout_below="@id/Group5"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="25sp"
+                android:padding="30dp"
+                android:id="@+id/textView13"
+                android:fontFamily="@font/roboto_light"
+                android:layout_below="@id/textView12"
+                android:textColor="@android:color/darker_gray"
+                android:text="Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit, sed do \neiusmod tempor incididunt ut labore et \ndolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="99dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/group7"
+                android:id="@+id/Group7"
+                android:layout_below="@+id/textView13"
+                android:layout_marginStart="30dp"
+                android:layout_height="103dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="lorem ipsum \n is used"
+                android:textSize="32sp"
+                android:layout_marginTop="35dp"
+                android:textStyle="bold"
+                android:id="@+id/textView14"
+                android:layout_marginStart="30dp"
+                android:layout_below="@id/Group7"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="25sp"
+                android:padding="30dp"
+                android:id="@+id/textView15"
+                android:fontFamily="@font/roboto_light"
+                android:layout_below="@id/textView14"
+                android:textColor="@android:color/darker_gray"
+                android:text="Lorem ipsum dolor sit amet, consectetur \nadipiscing elit, sed do eiusmod tempor \nincididunt ut labore et dolore magna \naliqua. Ut enim ad minim veniam, quis \nnostrud exercitation ullamco laboris nisi \nut aliquip ex ea commodo consequat. Duis \naute irure dolor in reprehenderit in \nvoluptate velit esse cillum dolore eu fugiat \nnulla pariatur."
+                android:layout_height="wrap_content"/>
+
+
+            <ImageView
+                android:layout_width="99dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/group7"
+                android:id="@+id/Group8"
+                android:layout_below="@+id/textView15"
+                android:layout_marginStart="30dp"
+                android:layout_height="103dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="lorem ipsum \n is used"
+                android:textSize="32sp"
+                android:layout_marginTop="35dp"
+                android:textStyle="bold"
+                android:id="@+id/textView16"
+                android:layout_marginStart="30dp"
+                android:layout_below="@id/Group8"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="25sp"
+                android:padding="30dp"
+                android:id="@+id/textView17"
+                android:fontFamily="@font/roboto_light"
+                android:layout_below="@id/textView16"
+                android:textColor="@android:color/darker_gray"
+                android:text="Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit, sed do \neiusmod tempor incididunt ut labore et \ndolore magna aliqua. Ut enim ad minim \nveniam, quis nostrud exercitation \nullamco laboris nisi ut aliquip ex ea \ncommodo consequat."
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="99dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/group9"
+                android:id="@+id/Group9"
+                android:layout_below="@+id/textView17"
+                android:layout_marginStart="30dp"
+                android:layout_height="103dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="lorem ipsum \n is used"
+                android:textSize="32sp"
+                android:layout_marginTop="35dp"
+                android:textStyle="bold"
+                android:id="@+id/textView18"
+                android:layout_marginStart="30dp"
+                android:layout_below="@id/Group9"
+                android:fontFamily="@font/roboto_light"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="25sp"
+                android:padding="30dp"
+                android:id="@+id/textView19"
+                android:fontFamily="@font/roboto_light"
+                android:layout_below="@id/textView18"
+                android:textColor="@android:color/darker_gray"
+                android:text="Lorem ipsum dolor sit amet, consectetur \nadipiscing elit, sed do eiusmod tempor \nincididunt ut labore et dolore magna \naliqua. Ut enim ad minim veniam, quis \nnostrud exercitation ullamco laboris nisi \nut aliquip ex ea commodo consequat. \nDuis aute irure dolor in reprehenderit in \nvoluptate velit esse cillum dolore eu \nfugiat nulla pariatur."
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_marginTop="100dp"
+                android:layout_below="@+id/textView19"
+                android:layout_toLeftOf="@+id/Instagram"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/facebook"
+                android:id="@+id/Facebook"
+                android:layout_height="55dp"/>
+
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_marginTop="100dp"
+                android:layout_below="@id/textView19"
+                android:src="@drawable/instagram"
+                android:id="@+id/Instagram"
+                android:layout_centerHorizontal="true"
+
+                android:layout_height="55dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/Instagram"
+                android:layout_marginStart="20dp"
+                android:id="@+id/View1"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/rectangle_gray_bg"
+                android:layout_height="2dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/linear1"
+                android:layout_below="@+id/View1"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:id="@+id/combinedShapes1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="73dp"
+                    android:paddingTop="20dp"
+                   android:layout_gravity="center"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginEnd="80dp"
+                    android:layout_marginBottom="80dp"
+                    android:src="@drawable/combinedshape" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_below="@+id/linear1"
+                android:orientation="horizontal"
+                android:id="@+id/linear2"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+
+
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:text="About Us."
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_weight="0.5"
+                    android:id="@+id/AboutUs"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:layout_height="50dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Affiliations"
+                    android:layout_marginEnd="20dp"
+                    android:gravity="center"
+                    android:textSize="22sp"
+                    android:layout_weight="1.5"
+                    android:layout_toRightOf="@+id/AboutUs"
+                    android:id="@+id/Affiliations"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_below="@+id/linear2"
+                android:orientation="horizontal"
+                android:id="@+id/linear3"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:text="Team."
+                    android:textStyle="bold"
+                    android:layout_marginTop="40dp"
+                    android:layout_below="@+id/AboutUs"
+                    android:gravity="center"
+                    android:id="@+id/Team"
+                    android:textSize="22sp"
+                   android:layout_weight="0.5"
+                    android:textColor="@color/black"
+                    android:layout_height="50dp"/>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:text="Disclaimers."
+                    android:textStyle="bold"
+                   android:gravity="center"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/Disclaimers"
+                    android:textSize="22sp"
+                   android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:id="@+id/linear4"
+                android:layout_below="@+id/linear3"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:text="Reach us"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:layout_weight="0.5"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_height="50dp"/>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:text="Privacy Policy"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1.5"
+                    android:gravity="center"
+                    android:id="@+id/PrivacyPolicy"
+                    android:layout_marginTop="40dp"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_below="@+id/linear4"
+                android:layout_marginStart="20dp"
+                android:id="@+id/View"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/rectangle_gray_bg"
+                android:layout_height="2dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="3"
+                android:layout_below="@+id/View"
+                android:orientation="horizontal"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="25dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/copyright"
+                    android:layout_marginTop="18dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" Content Copyright reserved" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/View"
+                    android:layout_gravity="left"
+                    android:paddingTop="20dp"
+                    android:layout_weight="2"
+                    android:id="@+id/CopyRight"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="Content Copyright reserved"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
