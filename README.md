@@ -9,6 +9,7 @@ Economist_Clone 📱
 An app that provides weekly news items as well as important events & happenings from around the globe published digitally.
 
 Technology Stack Used 📲
+
 In this project we have used the following tech stack.
 
 Java: Java
@@ -21,11 +22,15 @@ Livedata: Livedata
 Spring Boot: Spring Boot
 
 Libraries Used 🌟
+
+
 Dimens: Dimen
 Icons: Icons
 Retrofit: Retrofit
 
 How to run the project 📑
+
+
 Please fork the repository and then use it on your own. If you want to collaborate with us on this project then please feel free to reach out to us.
 
 You can also take the glimpse of our Project, just follow the below steps:
