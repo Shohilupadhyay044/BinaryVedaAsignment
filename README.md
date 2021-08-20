@@ -1,6 +1,6 @@
 
+https://user-images.githubusercontent.com/75352285/130250600-652cb70a-ecb7-4764-b048-79a7fb9d2aed.mp4
 
-https://user-images.githubusercontent.com/75352285/130227258-07e38e32-6109-4f65-8b38-857c2f53cb46.mp4
 
 
 Economist_Clone 📱
@@ -43,6 +43,9 @@ You can also take the glimpse of our Project, just follow the below steps:
 System Digram of Economist_Clone Using MVVM Architecture 📱
 
 ![The Economist Clone MVVM Architecture diagram - Page 1](https://user-images.githubusercontent.com/75352285/130227382-818d0707-5f94-4020-99ff-6f7d8e133733.jpeg)
+
+
+
 
 
 
