@@ -1,7 +1,9 @@
 package com.example.binaryveda
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -9,7 +11,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-
-
+        Register.setOnClickListener {
+            val intent = Intent(this,ProfilePage::class.java)
+            startActivity(intent)
+        }
     }
 }
